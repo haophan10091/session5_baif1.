@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 45%;
+    background-color: darkgreen;
+}
+.container h3{
+    text-transform: uppercase;
+}
+.container .underline{
+    width: 45px;
+    height: 3px;
+    background-color: rgb(237 217 172);
+}
+.main{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .main-left{
+    color: gray;
+    width: 32%;
+}
+.main .main-right{
+    width: 60%;
+}
+.fa-solid{
+    margin: 0 10px 10px;
+    color: orange;
+}
+.main-right input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 25px;
+}
+.btn-send{
+    background-color: rgb(10 184 183);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+}
